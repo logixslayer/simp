@@ -1,4 +1,4 @@
-from simpleinterest import calculate_simple_interest
+from simpleinterest import simInt as calculate_simple_interest
 
 def test_simple_interest():
     assert calculate_simple_interest(1000, 5, 2) == 100
